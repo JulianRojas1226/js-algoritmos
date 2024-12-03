@@ -112,8 +112,13 @@ function par(){
         alert(t+" es inpar")
     }
 }
-function interes() {
+function banco() {
     let a
     let g
-    let i
+    a = parseInt(prompt("ingrese el monto "))
+    g = parseInt(prompt("ingrese el tiempo a ingresar en años "))
+    alert("el interes anual es de 5%")
+    const t = a * 0.05 *g
+    console.log("sus intereses son de "+t)
+        alert("sus intereses son de "+t)
 }
