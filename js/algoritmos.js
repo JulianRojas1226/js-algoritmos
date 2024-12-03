@@ -115,10 +115,40 @@ function par(){
 function banco() {
     let a
     let g
+    let t
     a = parseInt(prompt("ingrese el monto "))
     g = parseInt(prompt("ingrese el tiempo a ingresar en años "))
     alert("el interes anual es de 5%")
-    const t = a * 0.05 *g
+     t = a * 0.05 *g
     console.log("sus intereses son de "+t)
         alert("sus intereses son de "+t)
+}
+function vcilindro(){
+    let r
+    let h
+    let v
+    r = parseInt(prompt("ingrese el radio del cilindro"))
+    h = parseInt(prompt("ingrese la altura"))
+    v = Math.PI * r * (h*h)
+    console.log("el volumen del cilindro es "+v)
+        alert("el volumen del cilindro es "+v)
+}
+function vesfera(){
+    let r
+    let v
+    r = parseInt(prompt("ingrese el radio de la esfera"))
+    v = (4/3)*Math.PI*Math.pow(r,3)
+    console.log("el volumen de la esfera es "+v)
+        alert("el volumen de la esfera es "+v)
+}
+
+function vcono(){
+    let h
+    let r
+    let v
+    h = parseInt(prompt("ingrese la altura de la esfera"))
+    r = parseInt(prompt("ingrese el radio del cono"))
+    v = (1/3)*h*Math.PI*Math.pow(r,2)
+    console.log("el volumen del cono es "+v)
+        alert("el volumen del cono es "+v)
 }
